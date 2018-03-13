@@ -4,6 +4,7 @@ public abstract class Abstract {
     public abstract void  input();
     public void show()
     {
-        System.out.println("заначение x / y = "+x+"/"+y);
+        System.out.println("заначение x = "+x);
+        System.out.println("заначение y = "+y);
     }
 }

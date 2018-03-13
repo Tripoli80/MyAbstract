@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class ExtendsFromAbstract extends Abstract{
     int h;
 
-    public ExtendsFromAbstract(int h) {
-        this.h = h;
+    public ExtendsFromAbstract() {
+
         input();
     }
 
@@ -14,6 +14,7 @@ public class ExtendsFromAbstract extends Abstract{
         System.out.println("input x y");
         System.out.println("x = ");x=scaner.nextInt();
         System.out.println("y = ");y=scaner.nextInt();
+        System.out.println("h = ");h=scaner.nextInt();
     }
     public  void show(){
         super.show();
